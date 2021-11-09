@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import React from "react";
+import LineExample from "./components/LineExample";
 
 function App() {
   return (
     <div className="App">
-      Hello World
+      <LineExample />
     </div>
   );
 }
